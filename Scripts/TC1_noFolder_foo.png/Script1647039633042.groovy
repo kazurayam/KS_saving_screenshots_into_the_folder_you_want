@@ -4,7 +4,10 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 WebUI.openBrowser("http://demoaut.katalon.com")
 
 // Take screenshot
-WebUI.takeScreenshot("foo.png")
+File png = new File("foo.png")
+WebUI.takeScreenshot(png.toString())
+
+println "[TC1_noFolder_foo.png] png -> ${png.getCanonicalPath()}"
 
 // Close browser
 WebUI.closeBrowser()
