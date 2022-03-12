@@ -144,7 +144,7 @@ I named screenshot image files as `foo.png`, `bar.png`, `baz.png`. This works. B
 
 My script can name the screenshot of URL `http://demoaut.katalon.com/` as `foo.png`. But another script would never be informed that `foo.png` was created out of `http://demoaut.katlaon.com/`. Therefore the file `foo.png` can not be reused by other scripts. **As soon as the screenshot file is created, it becomes a garbage**.
 
-Then, wouldn't it be nice if we could save a screenshot with the file name just the same as the source `http://demoaut.katalon.com/`? like this:
+Then, wouldn't it be nice if we could save a screenshot into a file with a name just the same as the source URL `http://demoaut.katalon.com/` ? like this:
 
 image:docs/images/Wouldnt_it_be_nice.png[Wouldnt_it_be_nice]
 
