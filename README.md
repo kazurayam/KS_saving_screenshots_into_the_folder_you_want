@@ -192,13 +192,13 @@ I named screenshot image files as `foo.png`, `bar.png`, `baz.png`. This works. B
 
 My script can name the screenshot of URL `http://demoaut.katalon.com/` as `foo.png`. But another script would never be informed that `foo.png` was created out of `http://demoaut.katlaon.com/`. Therefore the file `foo.png` can not be reused by other scripts. **As soon as the screenshot file is created, it becomes a garbage**.
 
-Then, wouldn’t it be nice if we can save a screenshot with the file name just the same as the source `http://demoaut.katalon.com/`? like this:
+Then, wouldn’t it be nice if we could save a screenshot with the file name just the same as the source `http://demoaut.katalon.com/`? like this:
 
 ![Wouldnt\_it\_be\_nice](docs/images/Wouldnt_it_be_nice.png)
 
 As we all know, this is impossible. We can not use the character `/` in file name on any OS --- Windows, Mac, Linux.
 
-Here we find another problem in taking screenshot as file. **How can we store a screenshot into a file while retaining the metadata such as the source URL associated with the file?** My library [materialstore](https://github.com/kazurayam/materialstore) can solve this problem.
+Here we find another problem in saving screenshot as file. **How can we store a screenshot into a file while retaining the metadata such as the source URL associated with the file?** My library [materialstore](https://github.com/kazurayam/materialstore) can solve this problem.
 
 @author kazurayam
 @date 12 MAR 2022
