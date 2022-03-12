@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>TC2_subdir_bar.png</name>
+   <name>TC2_subfolders_bar.png</name>
    <tag></tag>
    <comment></comment>
    <testCaseGuid>9eea0e24-f7c6-46ff-a43a-42e955080074</testCaseGuid>

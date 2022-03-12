@@ -1,3 +1,6 @@
+/*
+ * TS2_subfolders_bar.png
+ */
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 
 // Open browser and navigate to AUT

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestSuiteEntity>
    <description></description>
-   <name>TS2_subdir_bar.png</name>
+   <name>TS2_subfolders_bar.png</name>
    <tag></tag>
    <isRerun>false</isRerun>
    <mailRecipient></mailRecipient>
@@ -15,6 +15,6 @@
       <guid>ddc79c56-26ee-46d3-9d2e-41c4022ae2c4</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/TC2_subdir_bar.png</testCaseId>
+      <testCaseId>Test Cases/TC2_subfolders_bar.png</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>
