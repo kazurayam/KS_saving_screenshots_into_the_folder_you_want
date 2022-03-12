@@ -150,7 +150,7 @@ image:docs/images/Wouldnt_it_be_nice.png[Wouldnt_it_be_nice]
 
 As we all know, this is impossible. We can not use the character `/` in file name on any OS --- Windows, Mac, Linux. 
 
-Here we find another problem in taking screenshot as file. *How can we store a screenshot into a file while retaining the metadata such as the source URL associated with the file?* My library https://github.com/kazurayam/materialstore[materialstore] can solve this problem.
+Here we find another problem in saving screenshot as file. *How can we store a screenshot into a file while retaining the metadata such as the source URL associated with the file?* My library https://github.com/kazurayam/materialstore[materialstore] can solve this problem.
 
 
 @author kazurayam
